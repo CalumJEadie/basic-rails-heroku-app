@@ -14,6 +14,8 @@ wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 # Install RVM for managing Ruby versions.
 curl -L https://get.rvm.io | bash -s
 
+source /etc/profile.d/rvm.sh
+
 # Install RVM dependancies.
 rvm requirements
 
