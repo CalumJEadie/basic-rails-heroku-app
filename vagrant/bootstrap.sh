@@ -27,4 +27,5 @@ rvm use ruby --default
 rvm rubygems current
 
 # Install Rails.
-gem install rails
+# Reduce installation time by not installing rdoc and ri documentation.
+gem install rails --no-rdoc --no-ri
