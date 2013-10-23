@@ -47,3 +47,9 @@ end
 # Installing to get a JavaScript runtime.
 #gem 'execjs'
 gem 'therubyracer'
+
+# Heroku integration
+gem 'rails_12factor', group: :production
+
+# Use Ruby 2.0.0
+ruby "2.0.0"
