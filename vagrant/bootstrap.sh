@@ -5,6 +5,7 @@
 # http://docs.vagrantup.com/v2/getting-started/provisioning.html
 # http://ruby.railstutorial.org/ruby-on-rails-tutorial-book#sec-rubygems
 
+# Basic utilities.
 apt-get update
 apt-get install -y vim curl
 
@@ -31,3 +32,6 @@ rvm rubygems current
 # Install Rails.
 # Reduce installation time by not installing rdoc and ri documentation.
 gem install rails --no-rdoc --no-ri
+
+# Install header files for Postgres library.
+apt-get install -y libpq-dev

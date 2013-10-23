@@ -17,3 +17,5 @@ https://www.digitalocean.com/community/articles/how-to-install-ruby-on-rails-on-
 https://github.com/github/gitignore/blob/master/Rails.gitignore
 
 https://github.com/markdunphy/rails-vagrant/blob/master/bootstrap.sh
+
+https://devcenter.heroku.com/articles/heroku-postgresql#local-setup
